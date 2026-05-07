@@ -1,0 +1,76 @@
+NOTICES
+
+This repository incorporates material as listed below or described in the code.
+
+
+Component. CSPO
+
+Repository.
+https://github.com/microsoft/CSPO
+
+Open Source License/Copyright Notice.
+Copyright (c) Microsoft Corporation.
+
+CSPO is released under the MIT License.
+See LICENSE.txt in the root of this repository.
+
+Additional Attribution (if any).
+This repository also includes or adapts third-party open-source components.
+Those components remain subject to their respective licenses, as described
+below and in the corresponding license files included in this repository.
+
+
+Component. VLM-R1 / open-r1-multimodal / Open-R1-derived code
+
+Repository.
+https://github.com/om-ai-lab/VLM-R1
+
+Open Source License/Copyright Notice.
+Portions of this repository are built upon or adapted from VLM-R1 and
+open-r1-multimodal, which include Open-R1-derived code released under the
+Apache License, Version 2.0.
+
+See src/open-r1-multimodal/LICENSE for the corresponding license text.
+The Apache License, Version 2.0 text is also preserved at src/LICENSE.
+
+Several files in src/open-r1-multimodal retain copyright notices from the
+Hugging Face Team / Hugging Face Inc. and their Apache License 2.0 headers.
+
+Additional Attribution (if any).
+This repository preserves upstream license headers where present.
+Some CSPO training and reward components have been modified for
+table-to-LaTeX generation.
+
+
+Component. LLaMA-Factory
+
+Repository.
+https://github.com/hiyouga/LLaMA-Factory
+
+Open Source License/Copyright Notice.
+This repository includes LLaMA-Factory, which is released under the
+Apache License, Version 2.0.
+
+See LLaMA-Factory/LICENSE for the corresponding license text.
+
+Additional Attribution (if any).
+This repository uses LLaMA-Factory for supervised fine-tuning workflows.
+
+
+Component. METAL-adapted evaluation components
+
+Repository.
+https://github.com/metal-chart-generation/metal
+
+Open Source License/Copyright Notice.
+Portions of the fine-grained evaluation pipeline are adapted from
+METAL: A Multi-Agent Framework for Chart Generation with Test-Time Scaling.
+
+The METAL repository declares the MIT License in its README.
+
+Additional Attribution (if any).
+METAL authors listed in the repository include Bingxuan Li,
+Yiwei Wang, Jiuxiang Gu, Kai-Wei Chang, and Nanyun Peng.
+
+CSPO substantially modifies the METAL-adapted evaluation workflow
+for table-to-LaTeX generation.

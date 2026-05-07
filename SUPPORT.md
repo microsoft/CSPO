@@ -1,25 +1,23 @@
-# TODO: The maintainer of this repo has not yet edited this file
-
-**REPO OWNER**: Do you want Customer Service & Support (CSS) support for this product/project?
-
-- **No CSS support:** Fill out this template with information about how to file issues and get help.
-- **Yes CSS support:** Fill out an intake form at [aka.ms/onboardsupport](https://aka.ms/onboardsupport). CSS will work with/help you to determine next steps.
-- **Not sure?** Fill out an intake as though the answer were "Yes". CSS will help you decide.
-
-*Then remove this first heading from this SUPPORT.MD file before publishing your repo.*
-
 # Support
 
-## How to file issues and get help  
+## How to File Issues and Get Help
 
-This project uses GitHub Issues to track bugs and feature requests. Please search the existing 
-issues before filing new issues to avoid duplicates.  For new issues, file your bug or 
-feature request as a new Issue.
+This project uses GitHub Issues to track bugs, feature requests, documentation issues, and questions.
 
-For help and questions about using this project, please **REPO MAINTAINER: INSERT INSTRUCTIONS HERE 
-FOR HOW TO ENGAGE REPO OWNERS OR COMMUNITY FOR HELP. COULD BE A STACK OVERFLOW TAG OR OTHER
-CHANNEL. WHERE WILL YOU HELP PEOPLE?**.
+Before opening a new issue, please search the existing issues to avoid duplicates. When filing a bug report, please include:
 
-## Microsoft Support Policy  
+- A clear description of the problem
+- Steps to reproduce the issue
+- Relevant command lines, configuration files, or error messages
+- Environment details, such as OS, Python version, CUDA version, GPU type, and package versions
 
-Support for this **PROJECT or PRODUCT** is limited to the resources listed above.
+For questions about using CSPO, please open a GitHub Issue. You may use a `question` label if available.
+
+## Response Expectations
+
+This project is maintained on a best-effort basis. Maintainers may not respond immediately, but will try to address issues as time permits.
+
+## Microsoft Support Policy
+
+Support for this project is limited to the resources listed above. This project is not covered by Microsoft Customer Service & Support (CSS).
+``
