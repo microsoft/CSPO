@@ -42,19 +42,19 @@ Some CSPO training and reward components have been modified for
 table-to-LaTeX generation.
 
 
-Component. LLaMA-Factory
+Component. LLaMA-Factory-compatible SFT configuration
 
 Repository.
 https://github.com/hiyouga/LLaMA-Factory
 
 Open Source License/Copyright Notice.
-This repository includes LLaMA-Factory, which is released under the
-Apache License, Version 2.0.
-
-See LLaMA-Factory/LICENSE for the corresponding license text.
+configs/llamafactory/qwen2_5_vl_table_full_sft.yaml is adapted from
+LLaMA-Factory example training configurations. LLaMA-Factory is released
+under the Apache License, Version 2.0.
 
 Additional Attribution (if any).
-This repository uses LLaMA-Factory for supervised fine-tuning workflows.
+CSPO modifies the configuration for Qwen2.5-VL table image-to-LaTeX SFT.
+The LLaMA-Factory source code is not included in this repository.
 
 
 Component. METAL-adapted evaluation components

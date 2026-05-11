@@ -7,36 +7,8 @@ updates:
       day: monday
     open-pull-requests-limit: 5
 
-  - package-ecosystem: pip
-    directory: /LLaMA-Factory
-    schedule:
-      interval: weekly
-      day: monday
-    open-pull-requests-limit: 5
-
   - package-ecosystem: docker
     directory: /
-    schedule:
-      interval: weekly
-      day: monday
-    open-pull-requests-limit: 5
-
-  - package-ecosystem: docker
-    directory: /LLaMA-Factory/docker/docker-cuda
-    schedule:
-      interval: weekly
-      day: monday
-    open-pull-requests-limit: 5
-
-  - package-ecosystem: docker
-    directory: /LLaMA-Factory/docker/docker-npu
-    schedule:
-      interval: weekly
-      day: monday
-    open-pull-requests-limit: 5
-
-  - package-ecosystem: docker
-    directory: /LLaMA-Factory/docker/docker-rocm
     schedule:
       interval: weekly
       day: monday

@@ -52,12 +52,12 @@ Install Python dependencies:
 bash setup.sh
 ```
 
-If you need SFT workflows, install LLaMA-Factory extras:
+If you need SFT workflows, clone LLaMA-Factory and install its extras:
 
 ```bash
+git clone https://github.com/hiyouga/LLaMA-Factory.git
 cd LLaMA-Factory
 pip install -e ".[torch,metrics]" --no-build-isolation
-cd ..
 ```
 
 ## Coding Guidance

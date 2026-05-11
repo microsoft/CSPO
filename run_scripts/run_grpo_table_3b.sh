@@ -7,7 +7,7 @@ echo "REPO_HOME: $REPO_HOME"
 # on remote
 data_paths="data/grpo_trainset5000.jsonl" 
 image_folders="data/tabletex"
-model_path="LLaMA-Factory/saves/qwen2_5_vl_sft_3b/checkpoint-156"
+model_path="saves/qwen2_5_vl_sft_3b/checkpoint-156"
 is_reward_customized_from_vlm_module=True
 echo "data_paths: $data_paths"
 echo "image_folders: $image_folders"

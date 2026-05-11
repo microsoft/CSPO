@@ -69,19 +69,23 @@ The training and evaluation datasets will be released soon.
 
 #### Install LLaMA Factory
 
+We use LLaMA-Factory to train the SFT model. Clone the LLaMA-Factory repository
+and install its dependencies:
+
 ```bash
+git clone https://github.com/hiyouga/LLaMA-Factory.git
 cd LLaMA-Factory
 pip install -e ".[torch,metrics]" --no-build-isolation
-cd ..
 ```
 
 #### Run SFT Training
 
 ```bash
-llamafactory-cli train LLaMA-Factory/examples/train_full/qwen2_5_vl_table_full_sft.yaml
+llamafactory-cli train ../configs/llamafactory/qwen2_5_vl_table_full_sft.yaml
 ```
 
-Before training, update the following fields in `qwen2_5_vl_table_full_sft.yaml`:
+Before training, update the following fields in
+[`configs/llamafactory/qwen2_5_vl_table_full_sft.yaml`](configs/llamafactory/qwen2_5_vl_table_full_sft.yaml):
 
 | Argument | Meaning | Example |
 | --- | --- | --- |
@@ -111,7 +115,7 @@ Before training, update the following fields in the corresponding script:
 | --- | --- | --- |
 | `data_paths` | Training set path | `data/grpo_trainset5000.jsonl` |
 | `image_folders` | Dataset image directory | `data/tabletex` |
-| `model_path` | SFT model path | `LLaMA-Factory/saves/qwen2_5_vl_sft_3b/checkpoint-156` |
+| `model_path` | SFT model path | `saves/qwen2_5_vl_sft_3b/checkpoint-156` |
 
 ## Evaluation
 
