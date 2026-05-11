@@ -29,7 +29,7 @@ python-dotenv==1.0.1
 python-Levenshtein==0.27.1
 PyYAML==6.0.2
 qwen-vl-utils==0.0.10
-requests==2.32.3
+requests==2.33.0
 safetensors==0.5.2
 sentencepiece==0.2.0
 setuptools==78.1.1
