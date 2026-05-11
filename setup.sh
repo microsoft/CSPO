@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
 # conda create -n vlm-r1 python=3.11 
 # conda activate vlm-r1
 

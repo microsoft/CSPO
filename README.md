@@ -3,7 +3,7 @@
 <div align="center">
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv%3A2604.10918-red)](https://arxiv.org/abs/2604.10918)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.txt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.TXT)
 
 <h3>
 ACL 2026 (Main Conference)
@@ -202,12 +202,25 @@ If you find this project useful, please cite our work:
 
 ## License
 
-The CSPO project is licensed under the MIT License. See [LICENSE.txt](./LICENSE.txt).
+The CSPO project is licensed under the MIT License. See [LICENSE.TXT](./LICENSE.TXT).
 
 This repository also includes or adapts third-party open-source components.
 Those components remain subject to their respective licenses, as described in
 [NOTICE](./NOTICE) and in the corresponding license files included in this
 repository.
+
+## Code of Conduct
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/)
+or contact [opencode@microsoft.com](mailto:opencode@microsoft.com).
+
+## Security
+
+Microsoft takes the security of our software products and services seriously.
+Please do not report security vulnerabilities through public GitHub issues.
+For security reporting information, locations, contact information, and policies,
+review the guidance in [SECURITY.md](./SECURITY.md).
 
 ## Trademarks
 

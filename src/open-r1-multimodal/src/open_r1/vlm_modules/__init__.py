@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
 from .vlm_module import VLMBaseModule
 from .qwen_module import Qwen2VLModule
 from .internvl_module import InvernVLModule

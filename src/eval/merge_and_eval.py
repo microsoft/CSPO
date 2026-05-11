@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
 import os
 os.environ["NCCL_BLOCKING_WAIT"] = "1"
 os.environ["NCCL_ASYNC_ERROR_HANDLING"] = "1"

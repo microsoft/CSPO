@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
 # Use the specified base image
 FROM pytorch/pytorch:2.5.1-cuda12.4-cudnn9-devel
 
@@ -39,4 +42,3 @@ ENV PYTHONUNBUFFERED=1
 
 # Default command
 CMD ["/bin/bash"]
-

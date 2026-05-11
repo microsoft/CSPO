@@ -1,6 +1,7 @@
 # Portions of this file are adapted from METAL, which declares the MIT License in its README.
 # This version has been substantially modified for CSPO.
-# Modifications Copyright 2026 CSPO Authors.
+# Modifications Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
 
 import os
 import json

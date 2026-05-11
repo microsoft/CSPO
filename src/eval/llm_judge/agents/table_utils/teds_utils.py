@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
 import re
 from anytree import Node, RenderTree
 from apted import APTED, Config
@@ -480,4 +483,3 @@ def compute_teds_score_only_tabular(pred_table, label):
     if reward<0:
         reward = 0
     return edit_distance, reward
-

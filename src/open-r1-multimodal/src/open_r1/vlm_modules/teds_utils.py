@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
 import re
 from anytree import Node, RenderTree
 from apted import APTED, Config

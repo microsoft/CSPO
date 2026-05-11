@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
 # critic_prompt = r"""You will be given two LaTeX table codes: a Ground Truth version and a Predicted version.
 
 # Your task is to compare their rendered results across five aspects: Content, Structure, Line, Alignment and Cell Style. For each aspect, provide:

@@ -1,7 +1,8 @@
 #!/bin/bash
 # Portions of this file are adapted from METAL, which declares the MIT License in its README.
 # This version has been substantially modified for CSPO.
-# Modifications Copyright 2026 CSPO Authors.
+# Modifications Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 DATASET_DIR="src/eval/output/CSPO/merged.jsonl" 
