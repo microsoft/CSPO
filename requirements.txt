@@ -3,13 +3,11 @@ accelerate==1.4.0
 aiohappyeyeballs==2.4.6
 aiohttp==3.11.12
 aiosignal==1.3.2
-anaconda-anon-usage @ file:///croot/anaconda-anon-usage_1710965072196/work
 annotated-types==0.7.0
 antlr4-python3-runtime==4.13.2
 anyio==4.6.2.post1
 anytree==2.13.0
 apted==1.0.3
-archspec @ file:///croot/archspec_1709217642129/work
 argon2-cffi==23.1.0
 argon2-cffi-bindings==21.2.0
 arrow==1.3.0
@@ -22,20 +20,9 @@ beautifulsoup4==4.12.3
 bitsandbytes==0.45.2
 black==25.1.0
 bleach==6.2.0
-boltons @ file:///work/perseverance-python-buildout/croot/boltons_1698851177130/work
-Brotli @ file:///croot/brotli-split_1714483155106/work
-certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1739515848642/work/certifi
-cffi @ file:///croot/cffi_1714483155441/work
-charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
 click==8.1.8
 comm==0.2.2
-conda @ file:///home/conda/feedstock_root/build_artifacts/conda_1736947900115/work
-conda-content-trust @ file:///croot/conda-content-trust_1714483159009/work
-conda-libmamba-solver @ file:///croot/conda-libmamba-solver_1706733287605/work/src
-conda-package-handling @ file:///croot/conda-package-handling_1714483155348/work
-conda_package_streaming @ file:///work/perseverance-python-buildout/croot/conda-package-streaming_1698847176583/work
 contourpy==1.3.1
-cryptography @ file:///croot/cryptography_1714660666131/work
 cycler==0.12.1
 datasets==3.3.2
 debugpy==1.8.9
@@ -43,7 +30,6 @@ decorator==5.1.1
 deepspeed==0.15.4
 defusedxml==0.7.1
 dill==0.3.8
-distro @ file:///croot/distro_1714488253808/work
 docker-pycreds==0.4.0
 einops==0.8.1
 executing==2.1.0
@@ -53,7 +39,6 @@ flake8==7.1.2
 flash_attn==2.7.4.post1
 fonttools==4.55.0
 fqdn==1.5.1
-frozendict @ file:///home/conda/feedstock_root/build_artifacts/frozendict_1728841327252/work
 frozenlist==1.5.0
 fsspec==2024.10.0
 gitdb==4.0.12
@@ -65,7 +50,6 @@ hjson==3.1.0
 httpcore==1.0.7
 httpx==0.27.2
 huggingface-hub==0.29.1
-idna @ file:///croot/idna_1714398848350/work
 iniconfig==2.0.0
 inquirerpy==0.3.4
 ipykernel==6.29.5
@@ -78,7 +62,6 @@ Jinja2==3.1.4
 jiter==0.9.0
 json5==0.9.28
 json_repair==0.41.1
-jsonpatch @ file:///croot/jsonpatch_1714483231291/work
 jsonpointer==2.1
 jsonschema==4.23.0
 jsonschema-specifications==2024.10.1
@@ -96,7 +79,6 @@ jupyterlab_widgets==3.0.13
 kiwisolver==1.4.7
 latex2sympy2_extended==1.0.9
 Levenshtein==0.27.1
-libmambapy @ file:///croot/mamba-split_1714483352891/work/libmambapy
 liger_kernel==0.5.2
 Markdown==3.7
 markdown-it-py==3.0.0
@@ -106,9 +88,7 @@ matplotlib==3.9.2
 matplotlib-inline==0.1.7
 mccabe==0.7.0
 mdurl==0.1.2
-menuinst @ file:///croot/menuinst_1714510563922/work
 mistune==3.0.2
-mpi4py @ file:///home/conda/feedstock_root/build_artifacts/mpi4py_1741006472358/work
 mpmath==1.3.0
 msgpack==1.1.0
 multidict==6.1.0
@@ -135,11 +115,8 @@ nvidia-ml-py==12.570.86
 nvidia-nccl-cu12==2.21.5
 nvidia-nvjitlink-cu12==12.4.127
 nvidia-nvtx-cu12==12.4.127
-# Editable install with no version control (open-r1==0.1.0.dev0)
--e /root/VLM-R1/src/open-r1-multimodal/src
 openai==1.75.0
 overrides==7.7.0
-packaging @ file:///croot/packaging_1710807400464/work
 pandas==2.2.3
 pandocfilters==1.5.1
 parameterized==0.9.0
@@ -149,7 +126,6 @@ peft==0.15.2
 pexpect==4.9.0
 pfzy==0.3.4
 pillow==11.0.0
-platformdirs @ file:///work/perseverance-python-buildout/croot/platformdirs_1701732573265/work
 pluggy==1.5.0
 prometheus_client==0.21.0
 prompt_toolkit==3.0.48
@@ -162,14 +138,11 @@ py-cpuinfo==9.0.0
 pyarrow==19.0.1
 pycocotools==2.0.8
 pycodestyle==2.12.1
-pycosat @ file:///croot/pycosat_1714510623388/work
-pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
 pydantic==2.10.6
 pydantic_core==2.27.2
 pyflakes==3.2.0
 Pygments==2.18.0
 pyparsing==3.2.0
-PySocks @ file:///work/perseverance-python-buildout/croot/pysocks_1698845478203/work
 pytest==8.3.4
 python-dateutil==2.9.0.post0
 python-json-logger==2.0.7
@@ -186,7 +159,6 @@ rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rich==13.9.4
 rpds-py==0.21.0
-ruamel.yaml @ file:///work/perseverance-python-buildout/croot/ruamel.yaml_1698863605521/work
 safetensors==0.5.2
 Send2Trash==1.8.3
 sentencepiece==0.2.0
@@ -215,12 +187,10 @@ traitlets==5.14.3
 transformers==4.49.0
 triton==3.1.0
 trl @ git+https://github.com/huggingface/trl.git@c82f626f94a83986fd1b28091fac3a0100b51c68
-truststore @ file:///work/perseverance-python-buildout/croot/truststore_1701735771625/work
 types-python-dateutil==2.9.0.20241003
 typing_extensions==4.12.2
 tzdata==2025.1
 uri-template==1.3.0
-urllib3 @ file:///croot/urllib3_1707770551213/work
 wandb==0.18.3
 wcwidth==0.2.13
 webcolors==24.11.1
@@ -231,4 +201,3 @@ wheel==0.43.0
 widgetsnbextension==4.0.13
 xxhash==3.5.0
 yarl==1.18.3
-zstandard @ file:///croot/zstandard_1714677652653/work
