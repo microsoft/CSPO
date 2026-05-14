@@ -4,6 +4,9 @@
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv%3A2604.10918-red)](https://arxiv.org/abs/2604.10918)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.TXT)
+[![Dataset](https://img.shields.io/badge/Dataset-TableTex-orange)](https://huggingface.co/datasets/yunfanyang1/TableTex)
+[![Model-3B](https://img.shields.io/badge/Model-Qwen2.5--VL--3B--CSPO-green)](https://huggingface.co/yunfanyang1/Qwen2.5-VL-3B-CSPO)
+[![Model-7B](https://img.shields.io/badge/Model-Qwen2.5--VL--7B--CSPO-brightgreen)](https://huggingface.co/yunfanyang1/Qwen2.5-VL-7B-CSPO)
 
 <h3>
 ACL 2026 (Main Conference)
@@ -23,6 +26,12 @@ ACL 2026 (Main Conference)
 Tables in scientific documents contain rich structured information, yet when stored as images or PDFs, their contents become difficult to edit, analyze, and reuse. Converting table images into executable LaTeX code is therefore an important step toward reliable document digitization. However, existing multimodal large language models (MLLMs) often struggle to faithfully reconstruct table structures, styles, and contents simultaneously, leading to issues such as incorrect cell merges, formatting inconsistencies, missing captions, and non-compilable LaTeX code.
 
 This repository provides the official implementation of CSPO (Component-Specific Policy Optimization), a reinforcement learning framework for high-fidelity table image-to-LaTeX generation, built on Qwen2.5-VL-3B and Qwen2.5-VL-7B. Instead of relying on a single aggregated reward, CSPO decomposes LaTeX generation into multiple functional components, including structure, content, alignment, captions, and line styles, and assigns component-specific rewards with token-level credit assignment. This design alleviates reward ambiguity in conventional RL-based structured generation and enables more reliable and controllable optimization. Our work also introduces hierarchical evaluation metrics for assessing structure, content, style, and overall fidelity.
+
+## Hugging Face Resources
+
+- Dataset: [yunfanyang1/TableTex](https://huggingface.co/datasets/yunfanyang1/TableTex)
+- Model: [yunfanyang1/Qwen2.5-VL-3B-CSPO](https://huggingface.co/yunfanyang1/Qwen2.5-VL-3B-CSPO)
+- Model: [yunfanyang1/Qwen2.5-VL-7B-CSPO](https://huggingface.co/yunfanyang1/Qwen2.5-VL-7B-CSPO)
 
 ## Environment Setup
 
@@ -61,7 +70,9 @@ bash setup.sh
 
 ## Data Preparation
 
-The training and evaluation datasets will be released soon.
+The training and evaluation dataset is available on Hugging Face:
+
+- [yunfanyang1/TableTex](https://huggingface.co/datasets/yunfanyang1/TableTex)
 
 ## Training
 

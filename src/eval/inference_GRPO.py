@@ -91,7 +91,7 @@ def compile_reward(completions, **kwargs):
 parser = argparse.ArgumentParser()
 parser.add_argument("--dataset", type=str, default="data/testset4000.jsonl")
 parser.add_argument("--image", type=str, default="data/tabletex")
-parser.add_argument("--model_path", type=str, default="model/3B-lora-GRPO")
+parser.add_argument("--model_path", type=str, default="model/Qwen2.5-VL-3B-GRPO")
 parser.add_argument("--run_name", type=str, default="GRPO")
 parser.add_argument("--output_dir", type=str, default="src/eval/output")
 args = parser.parse_args()

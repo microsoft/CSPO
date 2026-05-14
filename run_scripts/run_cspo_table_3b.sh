@@ -12,7 +12,7 @@ is_reward_customized_from_vlm_module=True
 echo "data_paths: $data_paths"
 echo "image_folders: $image_folders"
 
-export EXP_NAME="3B-lora-CSPO" # TODO: change this to your own experiment name
+export EXP_NAME="Qwen2.5-VL-3B-CSPO" # TODO: change this to your own experiment name
 TASK_TYPE="table"
 cd ${REPO_HOME}/src/open-r1-multimodal
 export PYTHONPATH="${REPO_HOME}/src/open-r1-multimodal/src:${PYTHONPATH}"
@@ -45,7 +45,7 @@ torchrun --nproc_per_node="4" \
     --master_port="12349" \
   src/open_r1/table_grpo.py \
     --use_vllm False \
-    --output_dir "model/3B-lora-CSPO" \
+    --output_dir "model/Qwen2.5-VL-3B-CSPO" \
     --resume_from_checkpoint True \
     --model_name_or_path $model_path \
     --data_file_paths $data_paths \

@@ -43,7 +43,7 @@ torchrun --nproc_per_node="4" \
     --master_port="12349" \
   src/open_r1/table_grpo.py \
     --use_vllm False \
-    --output_dir "model/7B-lora-CSPO" \
+    --output_dir "model/Qwen2.5-VL-7B-CSPO" \
     --resume_from_checkpoint True \
     --model_name_or_path $model_path \
     --data_file_paths $data_paths \
