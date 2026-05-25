@@ -25,13 +25,17 @@ ACL 2026 (Main Conference)
 
 Tables in scientific documents contain rich structured information, yet when stored as images or PDFs, their contents become difficult to edit, analyze, and reuse. Converting table images into executable LaTeX code is therefore an important step toward reliable document digitization. However, existing multimodal large language models (MLLMs) often struggle to faithfully reconstruct table structures, styles, and contents simultaneously, leading to issues such as incorrect cell merges, formatting inconsistencies, missing captions, and non-compilable LaTeX code.
 
-This repository provides the official implementation of CSPO (Component-Specific Policy Optimization), a reinforcement learning framework for high-fidelity table image-to-LaTeX generation, built on Qwen2.5-VL-3B and Qwen2.5-VL-7B. Instead of relying on a single aggregated reward, CSPO decomposes LaTeX generation into multiple functional components, including structure, content, alignment, captions, and line styles, and assigns component-specific rewards with token-level credit assignment. This design alleviates reward ambiguity in conventional RL-based structured generation and enables more reliable and controllable optimization. Our work also introduces hierarchical evaluation metrics for assessing structure, content, style, and overall fidelity.
+For such a highly structured sequence generation task, existing RL approaches typically compute a single aggregated reward across the entire output sequence. This introduces reward ambiguity—where fundamentally heterogeneous aspects such as structure, content, and style are collapsed into a single undifferentiated signal/reward, leading to unreliable gradients and limited fidelity improvements. 
+
+This repository provides the official implementation of CSPO (Component-Specific Policy Optimization), a reinforcement learning framework for high-fidelity table image-to-LaTeX generation, built on Qwen2.5-VL-3B and Qwen2.5-VL-7B. Particularly, CSPO decomposes a generated code sequence into functional components (e.g., structure, cell appearance, caption, package inclusion, alignment, and line style) using a LaTeX parser. It conducts component-specific rewarding by assessing each component’s fidelity, performs component-specific credit assignment and optimization, effectively mitigating reward ambiguity in table image-to-LaTeX generation.
+
+Our work also introduces hierarchical evaluation metrics for comprehensive and diagnostic assessment. 
 
 ## Hugging Face Resources
 
-- Dataset: [yunfanyang1/TableTex](https://huggingface.co/datasets/yunfanyang1/TableTex)
-- Model: [yunfanyang1/Qwen2.5-VL-3B-CSPO](https://huggingface.co/yunfanyang1/Qwen2.5-VL-3B-CSPO)
-- Model: [yunfanyang1/Qwen2.5-VL-7B-CSPO](https://huggingface.co/yunfanyang1/Qwen2.5-VL-7B-CSPO)
+- Our Collected Training and Testing Dataset: [yunfanyang1/TableTex](https://huggingface.co/datasets/yunfanyang1/TableTex)
+- 3B Model: [yunfanyang1/Qwen2.5-VL-3B-CSPO](https://huggingface.co/yunfanyang1/Qwen2.5-VL-3B-CSPO)
+- 7B Model: [yunfanyang1/Qwen2.5-VL-7B-CSPO](https://huggingface.co/yunfanyang1/Qwen2.5-VL-7B-CSPO)
 
 ## Environment Setup
 
@@ -206,10 +210,10 @@ This project is built upon or inspired by the following open-source projects:
 If you find this project useful, please cite our work:
 
 ```bibtex
-@article{yang2026cspo,
+@inproceedings{yang2026cspo,
   title={CSPO: Alleviating Reward Ambiguity for Structured Table-to-LaTeX Generation},
   author={Yang, Yunfan and Lan, Cuiling and Sang, Jitao and Lu, Yan},
-  journal={arXiv preprint arXiv:2604.10918},
+  booktitle={Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL)},
   year={2026}
 }
 ```
