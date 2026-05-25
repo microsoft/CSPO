@@ -31,11 +31,6 @@ This repository provides the official implementation of CSPO (Component-Specific
 
 Our work also introduces hierarchical evaluation metrics for comprehensive and diagnostic assessment. 
 
-## Hugging Face Resources
-
-- Our Collected Training and Testing Dataset: [yunfanyang1/TableTex](https://huggingface.co/datasets/yunfanyang1/TableTex)
-- 3B Model: [yunfanyang1/Qwen2.5-VL-3B-CSPO](https://huggingface.co/yunfanyang1/Qwen2.5-VL-3B-CSPO)
-- 7B Model: [yunfanyang1/Qwen2.5-VL-7B-CSPO](https://huggingface.co/yunfanyang1/Qwen2.5-VL-7B-CSPO)
 
 ## Environment Setup
 
@@ -74,7 +69,7 @@ bash setup.sh
 
 ## Data Preparation
 
-The training and evaluation dataset is available on Hugging Face:
+We constructed TableTex, a benchmark comparising 19,000 pairs of table images and renderable LaTeX codes. The training and evaluation dataset is available on Hugging Face:
 
 - [yunfanyang1/TableTex](https://huggingface.co/datasets/yunfanyang1/TableTex)
 
@@ -195,6 +190,11 @@ python src/eval/llm_judge/get_gpt_critic.py
 ```
 
 Before computing the average score, set `WORKING_HOME_DIR` in [`src/eval/llm_judge/get_gpt_critic.py`](src/eval/llm_judge/get_gpt_critic.py) to the same output directory used in the GPT-4o evaluation stage.
+
+## Model
+
+- 3B Model: [yunfanyang1/Qwen2.5-VL-3B-CSPO](https://huggingface.co/yunfanyang1/Qwen2.5-VL-3B-CSPO)
+- 7B Model: [yunfanyang1/Qwen2.5-VL-7B-CSPO](https://huggingface.co/yunfanyang1/Qwen2.5-VL-7B-CSPO)
 
 ## Acknowledgements
 
