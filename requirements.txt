@@ -23,7 +23,7 @@ openai==1.75.0
 packaging==24.2
 pandas==2.2.3
 peft==0.15.2
-pillow==12.2.0
+pillow==12.3.0
 pycocotools==2.0.8
 python-dotenv==1.2.2
 python-Levenshtein==0.27.1
