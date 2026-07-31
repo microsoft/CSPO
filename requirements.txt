@@ -15,7 +15,7 @@ huggingface-hub==0.29.1
 httpx[socks]==0.27.2
 json-repair==0.41.1
 latex2sympy2-extended==1.0.9
-liger-kernel==0.5.2
+liger-kernel==0.8.1
 matplotlib==3.9.2
 math-verify==0.6.0
 numpy==2.1.3
