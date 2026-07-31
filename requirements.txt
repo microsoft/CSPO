@@ -28,7 +28,7 @@ pycocotools==2.0.8
 python-dotenv==1.2.2
 python-Levenshtein==0.27.1
 PyYAML==6.0.2
-qwen-vl-utils==0.0.10
+qwen-vl-utils==0.0.14
 requests==2.33.0
 safetensors==0.5.2
 sentencepiece==0.2.1
